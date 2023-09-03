@@ -1,0 +1,110 @@
+
+
+h1, h2 {
+  font-family: 'Syne', sans-serif;
+  color: #14214F;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+a {
+  color: #5E8CFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-blue {
+  background-color: #054CFF;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px blue;
+  }
+
+body {
+  background-color: #E5ECFA;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  color: #14214F;
+  line-height: 1.6;
+}
+
+
+.container {
+  /* background-color: #f0f5fa; color-card E5ECFA; body FAFBFE */
+  margin: 0px auto;
+  width: 744px;
+
+  }
+
+
+.color-card {
+  background-color: #FAFBFE;
+  box-shadow: 0px 0px 30p rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  padding: 22px;
+  border-radius: 4px;
+  box-shadow: 0 5px 8px rgb(0 0 0 / 0.1);
+  }
+
+  .list-item {
+    width: 100px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  i {
+    color: #054CFF;
+    /* padding: 5px; */
+    width: 24px;
+    height: 24px;
+  }
+
+  .profile-picture {
+/*
+    border-radius: 480px 480px 0px 0px; */
+    border-radius: 252px 252px 0px 0px;
+    border: 1px solid #14214F;
+  }
+
+
+  li::marker {
+    content: '•';
+    font-size: 1.5em;
+
+    /* These styles may start working in the future */
+    background-color: black;
+    margin-right: 0.5ch;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
